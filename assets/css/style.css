@@ -1,0 +1,227 @@
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --fundo-do-card: #a8a8a8;
+    --fundo-card-hover: #78aeabc4;
+    --fundo-card-shadow-hover: rgba(35, 133, 194, 0.732);
+
+
+    --modo-escuro-card-hover: rgb(62, 137, 166);
+
+    --grama: rgb(0, 158, 71);
+    --veneno: rgb(169, 0, 215);
+    --fogo: #cd000e;
+    --agua: rgb(0, 206, 206);
+    --voador: #b7b7b7;
+}
+
+body {
+    background: url(../img/padrao-edit.jpg);
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modo-escuro {
+    color: var(--branco);
+    background: url(../img/noite.png);
+}
+
+.modo-escuro .card {
+    color: var(--branco);
+}
+
+.modo-escuro .card:hover {
+    background-color: var(--modo-escuro-card-hover);
+}
+
+.nav {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgba(68, 68, 68, 0.46);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.nav__imagem {
+    width: 50px;
+    height: 50px;
+    transition: 500ms all;
+}
+
+.imagem-botao {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+}
+
+.botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+.pokeball-imagem:hover {
+    transform: rotateZ(360deg);
+}
+
+.card__lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 1rem;
+}
+
+.card {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    padding: 1.5rem 1.2rem 1.5rem 1.2rem;
+    gap: 1rem;
+
+    background-color: var(--fundo-do-card);
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px 0px var(--fundo-card-shadow-hover);
+
+    width: 300px;
+    height: 400px;
+
+    transition: 500ms all;
+
+    /* From https://css.glass */
+    background: rgba(68, 68, 68, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    background-color: var(--fundo-card-hover);
+}
+
+.card__titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem;
+    border: 2px dashed var(--branco);
+    border-radius: 10px;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.card__imagem {
+    width: 90px;
+    margin: 1.2rem;
+}
+
+.div__elementos {
+    display: flex;
+    gap: 1rem;
+}
+
+.div__elemtos-texto {
+    color: var(--branco);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.card__descricao {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+
+/*========================= ELEMENTOS ======================*/
+
+.grama {
+    background-color: var(--grama);
+}
+
+.veneno {
+    background-color: var(--veneno);
+}
+
+.fogo {
+    background-color: var(--fogo);
+}
+
+.agua {
+    background-color: var(--agua);
+}
+
+.voador {
+    background-color: var(--voador);
+}
+
+/* =================================== Rodape =================================== */
+
+.rodape {
+    padding: 2rem;
+    /* From https://css.glass */
+    background: rgba(68, 68, 68, 0.46);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.rodape__secao {
+    text-align: center;
+}
+
+.rodape__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--branco);
+}
+
+.rodape__link:hover {
+    text-decoration: underline;
+}
+
+/* ============================ MEIDA SCREEN =================================*/
+
+@media screen and (min-width: 768px) {
+    .nav {
+        padding: 1rem 5rem;
+    }
+
+    .card__lista {
+        margin: 5rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card__lista {
+        margin: 5rem 10rem;
+    }
+
+    .nav {
+        padding: 1rem 15rem;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+
+    .nav {
+        padding: 1rem 35rem;
+    }
+
+    .card__lista {
+        margin: 5rem 40rem;
+    }
+}
+
