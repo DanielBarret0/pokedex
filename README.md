@@ -11,11 +11,11 @@
 | :page_with_curl: Licença         | [<img src="https://img.shields.io/badge/LICENSE-MIT-green"/>](https://choosealicense.com/licenses/mit/) 
 
 
-# 💪 Desafio dos Gemeos Dev em Dobro 
+# 💪 Desafio dos Gêmeos Dev em Dobro
 
 Esse é um desafio proposto é para dar os primeiros passos para quem é iniciante no mundo da programação. Um projeto simples onde temos que fazer uma lista de algumas pokémons dentro de cards com um extra de modo claro e escuro. Segue a forma proposta abaixo:
 
-<img src="">
+<img src="https://github.com/DanielBarret0/pokedex-dev-em-dobro/blob/main/gif/projeto-proposto.gif">
 
 # 🎨 Design do projeto
 
@@ -40,14 +40,14 @@ No meu projeto eu segui a ideia do que foi proposto, mas como eu podia ter liber
 
 Desafio bem tranquilo de ser feito já que ele é proposto para iniciantes em HTML, CSS e JavaScript. Mas, tem uma essência ótima de conteúdo usando, flebox, e JavaScript para fazer o modo claro e escuro. Segue meu resultado abaixo espero que goste! 
 
-## ⭐ Layout Responsivo
-![Responsivo]()
+## ⭐ Layout completo e Responsivo
+![Responsivo](https://github.com/DanielBarret0/pokedex-dev-em-dobro/blob/main/gif/meu-projeto.gif)
 
 
 # 🖼️ Banner do VitrineDev
 
 <div align="center">
-<img src="#vitrinedev">
+<img src="https://github.com/DanielBarret0/pokedex-dev-em-dobro/blob/main/gif/meu-projeto.gif#vitrinedev">
 </div>
 
 # 🙋‍♂️ Autor
@@ -56,4 +56,4 @@ Desafio bem tranquilo de ser feito já que ele é proposto para iniciantes em HT
 
 José Daniel Aragão Barreto
 
-Acesse o meu [LinkedIn](https://www.linkedin.com/in/daniel-barreto-1b763216a/)
+Acesse minha redes [aqui](https://social-links-v2.bohr.io/)
