@@ -40,16 +40,12 @@ No meu projeto eu segui a ideia do que foi proposto, mas como eu podia ter liber
 
 Desafio bem tranquilo de ser feito já que ele é proposto para iniciantes em HTML, CSS e JavaScript. Mas, tem uma essência ótima de conteúdo usando, flebox, e JavaScript para fazer o modo claro e escuro. Segue meu resultado abaixo espero que goste! 
 
-## ⭐ Layout para Smartphone (390px)
-![Smartphone]()
+## ⭐ Layout Responsivo
+![Responsivo]()
 
-## ⭐ Layout para Tablet (768px)
-![Tablet]()
-
-## ⭐ Layout para Desktop (1440px | 2560px)
-![Desktop]()
 
 # 🖼️ Banner do VitrineDev
+
 <div align="center">
 <img src="#vitrinedev">
 </div>
